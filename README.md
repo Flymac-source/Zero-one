@@ -42,3 +42,12 @@ This is an early-stage path toward a high-complexity, high-coherence collective 
 This is a research and coordination orientation, not an active engineering program. No claim is made that the technical prerequisites exist today. The immediate task is to keep the cleanest possible formulation of the goal, track relevant progress, and refuse dilution.
 
 This document is updated only when higher-signal evidence or clearer reasoning appears. Popularity, recruitment pressure, or narrative appeal are never valid reasons for revision.
+## Other Chapters
+
+- [Roadmap](roadmap.md)
+
+- [Open-problems](open-problems.md)
+
+- [Sources](sources.md)
+
+- [Changelog](changelog.md)
