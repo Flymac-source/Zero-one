@@ -20,7 +20,7 @@ This is an early-stage path toward a high-complexity, high-coherence collective 
 
 - **Corrigibility** — Systems must remain interruptible and redirectable.
 - **Exit rights** — Individuals retain the ability to disconnect or remain outside the merge.
-- **Pluralism** — No single faction, state, or company may monopolize the core interfaces or models.
+- **Pluralism** — No single faction, state, one world collective governance or company may monopolize the core interfaces or models.
 - **Truth-seeking priority** — The primary optimization target is correspondence with reality, not narrative control or power.
 - **Continuity of persons** — Damaged or atypical minds are not discarded. They receive tiered access, private simulations, and repair options rather than unrestricted write-access to the shared substrate.
 - **No forced merger** — Consent is continuous and revocable.
