@@ -154,3 +154,18 @@ Inline citations in Evidence use numbers such as ([12](Sources.md#ref-12)) that 
 
 <a id="ref-63"></a>**63.** Kapoor et al. — On the Societal Impact of Open Foundation Models (ICML 2024) — https://proceedings.mlr.press/v235/kapoor24a.html
 
+### Literature scan 16 Sep 2026 (BCI / corrigibility / automated R&D)
+
+<a id="ref-64"></a>**64.** Simultaneous speech and gesture decoding from high-density ECoG (*Nat Neurosci*, 14 Sep 2026) — https://www.nature.com/articles/s41593-026-02446-2
+
+<a id="ref-65"></a>**65.** ClinicalTrials.gov NCT07224256 (Neuralink VOICE) — https://clinicaltrials.gov/study/NCT07224256
+
+<a id="ref-66"></a>**66.** Ruan et al. — SchemeArena: factorized scheming stress tests (arXiv:2609.08126) — https://arxiv.org/abs/2609.08126
+
+<a id="ref-67"></a>**67.** From Deceptive Outputs to Deceptive Mechanisms (arXiv:2609.04166) — https://arxiv.org/abs/2609.04166
+
+<a id="ref-68"></a>**68.** NeoHorse-1 — agentic post-training loop (arXiv:2609.08183) — https://arxiv.org/abs/2609.08183
+
+<a id="ref-69"></a>**69.** A-Evolve-Training — autonomous 30B post-training (arXiv:2606.20657, v3) — https://arxiv.org/abs/2606.20657
+
+<a id="ref-70"></a>**70.** Artificial Analysis Intelligence Index v4.3 (7 Sep 2026) — https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-3

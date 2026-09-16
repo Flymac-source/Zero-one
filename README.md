@@ -1,7 +1,7 @@
 # 01
 
 **Voluntary Cognitive Merger**  
-Living document · Version **0.3** · 16 September 2026
+Living document · Version **0.3.1** · 16 September 2026
 
 A short spine. Depth is optional and linked at the bottom.
 
@@ -50,9 +50,9 @@ Detail: [Roadmap](Roadmap.md)
 **C** = demonstrated · **N** = near-term engineering · **S** = speculative
 
 - **BCI:** Clinical invasive and endovascular systems exist (**C**); merge-grade bandwidth and peer-reviewed Neuralink PRIME efficacy do not.  
-- **Speech / closed-loop:** Large-vocabulary attempted-speech decoding and early tactile write-back are **C**; arbitrary thought-reading is not evidenced.  
+- **Speech / closed-loop:** Large-vocabulary attempted-speech decoding (including multimodal speech+gesture ECoG) and early tactile write-back are **C**; arbitrary thought-reading is not evidenced.  
 - **Personal AI:** Persistent memory-agent software is **C**; lifelong clinical cognitive prostheses are not evidenced.  
-- **Corrigibility:** Formal desiderata exist; deceptive-alignment demos show ordinary fine-tuning is insufficient (**C** demos). Proven corrigibility under neural write access remains **S**.  
+- **Corrigibility:** Formal desiderata exist; deceptive-alignment and scheming stress-test demos show ordinary fine-tuning is insufficient (**C** demos). Proven corrigibility under neural write access remains **S**.  
 - **Multi-person / WBE:** Early low-bandwidth demos and animal connectomics are **C** at small scale; human whole-brain emulation and high-bandwidth shared cognition are **S** / not evidenced.  
 
 Full narrative and citations: [Evidence](Evidence.md) · [Sources](Sources.md)
@@ -60,6 +60,8 @@ Full narrative and citations: [Evidence](Evidence.md) · [Sources](Sources.md)
 ## Status
 
 Research and coordination orientation — not an active engineering program. No claim that merge prerequisites exist today. Updated only when higher-signal evidence or clearer reasoning appears.
+
+**0.3.1** (16 Sep 2026): Evidence additions from the first literature scan; spine structure unchanged.
 
 ## How to suggest a correction
 
