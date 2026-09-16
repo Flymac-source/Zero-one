@@ -1,7 +1,7 @@
 # 01
 
 **Living Document on Voluntary Cognitive Merger**  
-Version **0.2.1** · 16 September 2026
+Version **0.2.2** · 16 September 2026
 
 **Maturity legend:** **C** = currently possible / demonstrated · **N** = near-term engineering · **S** = speculative
 
@@ -37,7 +37,7 @@ If those failure modes can be constrained, this project’s positive aim is to k
 
 #### Goal purity
 
-If a merge proceeds, the explicit goal should remain: **expand and understand more** — not power, not “safety” as a cover for capture, not any faction’s narrative. Downstream long-horizon sketches (see [Roadmap](Roadmap.md)#long-horizon-trajectory-if-goal-purity-holds-s) assume that purity holds; they are scenarios, not schedules.
+If a merge proceeds, the explicit goal should remain: **expand and understand more** — not power, not “safety” as a cover for capture, not any faction’s narrative. Downstream long-horizon sketches (see [Roadmap](Roadmap.md)#longer-term-direction-if-goal-purity-holds-s) assume that purity holds; they are scenarios, not schedules.
 
 ---
 
@@ -85,6 +85,7 @@ Research and coordination orientation — **not** an active engineering program.
 - **0.1** (16 Sep 2026): spine — goal, principles, rejects, decade gates, open problems.
 - **0.2** (16 Sep 2026): evidence-backed expansion of 0.1 — design detail plus evidence landscape and bibliography; maturity labels retained; no fabricated citations.
 - **0.2.1** (16 Sep 2026): Evidence rewritten as prose with inline Sources citations; Evidence-at-a-glance summary after the decade roadmap; no new empirical claims.
+- **0.2.2** (16 Sep 2026): Peer-reviewed/registry/FDA upgrades for BCI evidence; deepened Open-problems on exit rights under network effects and capture prevention; Sources refs 46–63.
 
 ---
 

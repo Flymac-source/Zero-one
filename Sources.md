@@ -158,3 +158,62 @@ Inline citations in Evidence use numbers such as ([12](Sources.md#ref-12)) that 
 
 <a id="ref-45"></a>
 45. How I became myself after merging with a computer (*Brain Stimul* 2023) — https://www.brainstimjrnl.com/article/S1935-861X(23)01760-6/fulltext
+
+### BCI upgrades (peer-reviewed / registry / FDA)
+
+<a id="ref-46"></a>
+46. ClinicalTrials.gov NCT06429735 (Neuralink PRIME) — https://clinicaltrials.gov/study/NCT06429735
+
+<a id="ref-47"></a>
+47. ClinicalTrials.gov NCT06710626 (Neuralink CONVOY) — https://clinicaltrials.gov/study/NCT06710626
+
+<a id="ref-48"></a>
+48. FDA 510(k) K242618 — Precision Neuroscience Layer 7-T database — https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242618
+
+<a id="ref-49"></a>
+49. FDA 510(k) K242618 clearance letter/summary PDF — https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242618.pdf
+
+<a id="ref-50"></a>
+50. Card, Singer-Clark, et al. — Long-term independent intracortical BCI for speech and cursor (*Nat Med* 2026) — https://www.nature.com/articles/s41591-026-04414-6
+
+<a id="ref-51"></a>
+51. Wairagkar, Card, et al. — Instantaneous voice-synthesis neuroprosthesis (*Nature* 2025) — https://www.nature.com/articles/s41586-025-09127-3
+
+<a id="ref-52"></a>
+52. Jude et al. — Bimanual typing neuroprosthesis (*Nat Neurosci* 2026) — https://www.nature.com/articles/s41593-026-02218-y
+
+<a id="ref-53"></a>
+53. Singer-Clark et al. — Speech motor cortex enables BCI cursor and click (*J Neural Eng.* 2025) — https://iopscience.iop.org/article/10.1088/1741-2552/add0e5
+
+<a id="ref-54"></a>
+54. COMMAND trial results abstract (*Neurosurgery* 2025 Suppl.) — https://journals.lww.com/neurosurgery/abstract/2025/04001/47238_results_of_the_command_trial__an_early.727.aspx
+
+<a id="ref-55"></a>
+55. Mitchell et al. / Oxley — SWITCH endovascular BCI safety (*JAMA Neurol* 2023) — https://jamanetwork.com/journals/jamaneurology/fullarticle/2799839
+
+### Exit rights / lock-in / capture (open problems)
+
+<a id="ref-56"></a>
+56. Farrell & Klemperer — Coordination and Lock-In (2007 WP) — https://www.nuff.ox.ac.uk/economics/papers/2006/w7/Farrell_KlempererWP.pdf
+
+<a id="ref-57"></a>
+57. Katz & Shapiro — Systems Competition and Network Effects (*JEP* 1994) — https://doi.org/10.1257/jep.8.2.93
+
+<a id="ref-58"></a>
+58. Furman et al. — Unlocking digital competition (UK, 2019) — https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/785547/unlocking_digital_competition_furman_review_web.pdf
+
+<a id="ref-59"></a>
+59. Stigler Committee on Digital Platforms — Market Structure Report (2019) — https://research.chicagobooth.edu/-/media/research/stigler/pdfs/market-structure---report-as-of-15-may-2019.pdf
+
+<a id="ref-60"></a>
+60. Ienca & Andorno — Towards new human rights in the age of neuroscience (*LSSP* 2017) — https://pmc.ncbi.nlm.nih.gov/articles/PMC5447561/
+
+<a id="ref-61"></a>
+61. Bassil & Jongsma — To explant or not to explant neural implants (*Neuroethics* 2025) — https://doi.org/10.1007/s12152-025-09619-z
+
+<a id="ref-62"></a>
+62. Korinek & Vipra — Concentrating Intelligence (*Economic Policy* / NBER WP 33139) — https://www.nber.org/papers/w33139
+
+<a id="ref-63"></a>
+63. Kapoor et al. — On the Societal Impact of Open Foundation Models (ICML 2024) — https://proceedings.mlr.press/v235/kapoor24a.html
+
