@@ -1,6 +1,6 @@
 # Roadmap (2026–2036)
 
-This is **scaffolding to open the door**, not biological dissolution or an Omega Point. Those remain **S** and cannot be scheduled. The next ten years determine whether early coupling is even technically and institutionally available.
+This is **scaffolding to open the door**, not biological dissolution or a scheduled far-future end-state. Anything beyond early coupling remains **S** and cannot be timed. The next ten years determine whether early coupling is even technically and institutionally available.
 
 Roadmap gates are design requirements, not demonstrated milestones. Evidence snapshots live in [Evidence](Evidence.md). Maturity legend: **C** = currently possible / demonstrated · **N** = near-term engineering · **S** = speculative.
 
@@ -84,13 +84,10 @@ Roadmap gates remain design requirements, not claims that prerequisites for merg
 
 ---
 
-## Long-horizon trajectory if goal purity holds (**S**)
+## Longer-term direction if goal purity holds (**S**)
 
-**Speculative.** Not a schedule. Contingent on breakthroughs that cannot currently be timed. Assumes voluntary merge with expansion + accurate modeling preserved. Interior phenomenology in these sketches is illustrative, not empirical. If goal purity fails, trajectories diverge toward capture, fragmentation, or uncontrolled optimization.
+**Speculative.** Not a schedule and not a prophecy. Contingent on breakthroughs that cannot currently be timed. Assumes voluntary merge with expansion and accurate modeling preserved. If goal purity fails, trajectories more likely diverge toward capture, fragmentation, or uncontrolled optimization.
 
-| Phase | Rough horizon | Sketch |
-|-------|---------------|--------|
-| Early | decades–centuries | Residual individuality; substrate mostly self-improvement (architecture, compute, energy); modest physical expansion (solar system → probes); private instances remain; more cognition in coordination / long-horizon planning. |
-| Intermediate | millennia | Local stellar mass → computronium / networks; light-speed lag → semi-autonomous clusters with delayed consensus; informational expansion (mapping, simulation); fluid self with optional private spaces. |
-| Late | approaching physical limits | Dominant computational process in light-cone; matter/energy organized for higher-order thought; explorer/explored distinction blurs. |
-| Limit case (“Omega Point”-style) | cosmological | Maximally coherent organization of accessible degrees of freedom for information density and causal connection until cosmic boundaries (heat death, proton decay, or actual limits) stop further growth — **closed self-modeling of what could be reached**. |
+If early gates succeed and constraints hold, the technical direction is gradual: denser and more reliable coupling; more cognition spent on coordination and long-horizon planning; careful physical and informational expansion only as energy, compute, and corrigibility allow. Light-speed lag and other physical limits would force semi-autonomous regions rather than a single instantaneous global mind. Private instances and exit options remain design requirements, not optional extras.
+
+This document does not commit to any named end-state, cosmological scenario, or timeline beyond the decade scaffolding above.
