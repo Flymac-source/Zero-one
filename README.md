@@ -44,10 +44,10 @@ This is a research and coordination orientation, not an active engineering progr
 This document is updated only when higher-signal evidence or clearer reasoning appears. Popularity, recruitment pressure, or narrative appeal are never valid reasons for revision.
 ## Other Chapters
 
-- [Roadmap](roadmap.md)
+- [Roadmap](Roadmap.md)
 
-- [Open-problems](open-problems.md)
+- [Open-problems](Open-problems.md)
 
-- [Sources](sources.md)
+- [Sources](Sources.md)
 
-- [Changelog](changelog.md)
+- [Changelog](Changelog.md)
