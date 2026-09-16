@@ -1,0 +1,44 @@
+name: Correction
+description: Suggest a factual or sourcing correction to the living document
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: dropdown
+    id: page
+    attributes:
+      label: Which page?
+      options:
+        - README / spine
+        - Roadmap
+        - Evidence
+        - Open-problems
+        - Sources
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim or passage to correct
+      description: Quote or paraphrase the text as it appears now.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong?
+      description: Factual error, overclaim, missing caveat, broken link, wrong maturity label, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Primary source
+      description: Prefer DOI, PubMed, ClinicalTrials.gov, or FDA. Company blogs only if nothing stronger exists.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested rewrite (optional)
