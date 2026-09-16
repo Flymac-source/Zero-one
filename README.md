@@ -95,6 +95,19 @@ Update only when higher-signal evidence or clearer reasoning appears. Popularity
 
 ---
 
+---
+
+### How to suggest a correction
+
+This site has no comment thread. Corrections belong on the repository:
+
+- Open a GitHub Issue: https://github.com/Flymac-source/Zero-one/issues/new
+- Or submit a pull request with a concrete edit and source
+
+Please cite a primary source when challenging a claim. Issues are public; do not put private contact details in them.
+
+---
+
 ## Other Chapters
 
 - [Roadmap](Roadmap.md)
