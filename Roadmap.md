@@ -14,7 +14,7 @@ Roadmap gates are design requirements, not demonstrated milestones. Evidence sna
 
 **Without this:** There is no real merge — only external tools.
 
-*Evidence snapshot:* [Evidence § BCI / neural interfaces](Evidence.md#91-bci--neural-interfaces) and [closed-loop speech / sensory](Evidence.md#92-closed-loop-stimulation--speech--sensory-write-back).
+*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
 
 ---
 
@@ -24,7 +24,7 @@ Roadmap gates are design requirements, not demonstrated milestones. Evidence sna
 
 **Outcome:** First functional human–AI **dyads**.
 
-*Evidence snapshot:* [Evidence § Personal AI](Evidence.md#93-personal-ai--cognitive-partnership) and closed-loop speech/sensory.
+*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
 
 ---
 
@@ -34,7 +34,7 @@ Roadmap gates are design requirements, not demonstrated milestones. Evidence sna
 
 **Without this:** Deeper integration is too dangerous to scale.
 
-*Evidence snapshot:* [Evidence § Corrigibility / alignment](Evidence.md#94-corrigibility--alignment--interruptibility).
+*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
 
 ---
 
@@ -44,7 +44,7 @@ Roadmap gates are design requirements, not demonstrated milestones. Evidence sna
 
 **Outcome:** First step that resembles a **collective** rather than isolated dyads.
 
-*Evidence snapshot:* [Evidence § Multi-person / collaborative BCI](Evidence.md#95-multi-person--collaborative-bci).
+*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
 
 ---
 
@@ -54,7 +54,7 @@ Roadmap gates are design requirements, not demonstrated milestones. Evidence sna
 
 Only after these would gradually shifting more cognition off biological hardware become conceivable — still not guaranteed.
 
-*Evidence snapshot:* [Evidence § Connectomics / WBE](Evidence.md#96-connectomics--wbe--substrates), [compute/energy](Evidence.md#97-compute-and-energy-constraints), [law/personhood](Evidence.md#98-law-personhood-cognitive-continuity).
+*Evidence snapshot:* see [Evidence](Evidence.md) (and [Sources](Sources.md)).
 
 ---
 
@@ -65,6 +65,22 @@ Only after these would gradually shifting more cognition off biological hardware
 - Continuous measurement of **goal drift** and **interruption robustness**.
 - Meaningful **exit rights** at every stage.
 - Energy and compute scaling treated as first-class constraints, not afterthoughts.
+
+---
+
+## Evidence at a glance
+
+What the [Evidence](Evidence.md) chapter currently supports, in brief. Full prose and citations: [Evidence](Evidence.md) · bibliography: [Sources](Sources.md).
+
+- **BCI (Gate 1):** Clinical invasive and endovascular systems exist (**C**); merge-grade bandwidth and peer-reviewed pivotal packages for the newest wireless systems do not. Non-invasive paths are **N** in the lab and **S** for merge-grade I/O.
+- **Speech / closed-loop (supports Gates 1–2):** Large-vocabulary attempted-speech decoding and early tactile write-back are **C**. Arbitrary thought decoding and rich cognitive write channels are not evidenced.
+- **Personal AI (Gate 2):** Persistent memory-agent architectures are **C** as software; lifelong clinical cognitive prostheses are not evidenced.
+- **Corrigibility (Gate 3):** Formal desiderata exist; empirical “sleeper” and alignment-faking results show ordinary fine-tuning is insufficient (**C** demos). Proven corrigibility under neural write access remains **S**.
+- **Multi-person (Gate 4):** Low-bandwidth collaborative demos are **C**. High-bandwidth shared cognition is not evidenced.
+- **WBE / substrates (Gate 5):** Fly and mouse mm³ connectomics are **C**; human whole-brain emulation and identity-preserving substrate transfer are **S** / not evidenced.
+- **Energy & law (parallel):** Data-centre energy growth and semiconductor limits are measurable (**C**/**N**). Neurorights and explantation ethics are normative work in progress, not settled hybrid personhood law.
+
+Roadmap gates remain design requirements, not claims that prerequisites for merger already exist.
 
 ---
 

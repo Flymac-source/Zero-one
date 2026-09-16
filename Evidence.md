@@ -1,97 +1,115 @@
 # Evidence
 
-Sourced from a research brief compiled 16 September 2026 (PT). Company blogs are labeled as such; prefer ClinicalTrials.gov and peer-reviewed journals when available. Roadmap gates remain design requirements, not demonstrated milestones.
+This chapter is the narrative evidence landscape for the living document. It explains what is currently demonstrated, what looks like near-term engineering, and what remains speculative. Full bibliographic entries live in [Sources](Sources.md). Inline numbers such as ([12](Sources.md#ref-12)) point to that list.
 
-Maturity legend: **C** = currently possible / demonstrated · **N** = near-term engineering · **S** = speculative.
+**Maturity labels:** **C** = currently possible / demonstrated · **N** = near-term engineering · **S** = speculative.
 
-Full primary URLs are also collected in [Sources](Sources.md).
+Roadmap gates remain *design requirements*, not demonstrated milestones. Company reports are labeled as such; peer-reviewed and registry sources are preferred when both exist.
+
+---
+
+## Evidence at a glance
+
+What the [Evidence](Evidence.md) chapter currently supports, in brief. Full prose and citations: [Evidence](Evidence.md) · bibliography: [Sources](Sources.md).
+
+- **BCI (Gate 1):** Clinical invasive and endovascular systems exist (**C**); merge-grade bandwidth and peer-reviewed pivotal packages for the newest wireless systems do not. Non-invasive paths are **N** in the lab and **S** for merge-grade I/O.
+- **Speech / closed-loop (supports Gates 1–2):** Large-vocabulary attempted-speech decoding and early tactile write-back are **C**. Arbitrary thought decoding and rich cognitive write channels are not evidenced.
+- **Personal AI (Gate 2):** Persistent memory-agent architectures are **C** as software; lifelong clinical cognitive prostheses are not evidenced.
+- **Corrigibility (Gate 3):** Formal desiderata exist; empirical “sleeper” and alignment-faking results show ordinary fine-tuning is insufficient (**C** demos). Proven corrigibility under neural write access remains **S**.
+- **Multi-person (Gate 4):** Low-bandwidth collaborative demos are **C**. High-bandwidth shared cognition is not evidenced.
+- **WBE / substrates (Gate 5):** Fly and mouse mm³ connectomics are **C**; human whole-brain emulation and identity-preserving substrate transfer are **S** / not evidenced.
+- **Energy & law (parallel):** Data-centre energy growth and semiconductor limits are measurable (**C**/**N**). Neurorights and explantation ethics are normative work in progress, not settled hybrid personhood law.
+
+Roadmap gates remain design requirements, not claims that prerequisites for merger already exist.
 
 ---
 
-### 9.1 BCI / neural interfaces
+## Brain–computer interfaces
 
-- **Wireless intracortical cursor control (company-reported).** Neuralink’s PRIME Study (first human implant Jan 2024) reported ~4.6 bits/s initially and ~8.0 bits/s after algorithm updates; later company updates claim multiple participants reaching able-bodied mouse-comparable rates (~8–10 BPS), expanded indications (device control NCT06429735; CONVOY NCT06710626; speech VOICE), and zero serious device-related adverse events to date. Peer-reviewed pivotal efficacy not located as of the brief. (**C** investigational; **N** scale/stability.) Sources: [PRIME UX update](https://neuralink.com/updates/prime-study-progress-update-user-experience/), [device-control trials](https://neuralink.com/trials/device-control/), [Two Years of Telepathy](https://neuralink.com/updates/two-years-of-telepathy/).
-- **Endovascular path.** Synchron’s COMMAND early feasibility study (NCT05035823; n=6) met its 12-month primary safety endpoint (no device-related death or permanent increased disability; no brain/vascular SAEs) with consistent motor-intent → digital outputs; median deployment ~20 min (CNS 2024 presentation / company release). (**C** feasibility; not high-bandwidth cognitive I/O.) Sources: [Business Wire / Synchron](https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface), [NCT05035823](https://clinicaltrials.gov/study/NCT05035823), earlier first-in-human [Oxley et al. 2020](https://pubmed.ncbi.nlm.nih.gov/33115813/).
-- **Longest published intracortical safety baseline.** BrainGate/Blackrock Utah-array interim analysis through 2021 (14 participants; >12,000 implant-days): no device-related deaths, no intracranial infections, no explants for safety failure in the primary endpoint window (Rubin et al., *Neurology* 2023). Percutaneous pedestal / skin AEs remain; fully implantable wireless is a separate leap. (**C**) Sources: [PMC10074470](https://pmc.ncbi.nlm.nih.gov/articles/PMC10074470/), [BrainGate2 NCT00912041](https://clinicaltrials.gov/study/NCT00912041).
-- **Temporary high-resolution surface arrays.** Precision Neuroscience FDA 510(k) clearance (announced Apr 2025) for Layer 7 Cortical Interface, temporary ≤30-day recording/monitoring/stimulation; chronic wireless BCI still in development. (**C** temporary clinical mapping; **N** chronic.) Source: [Precision announcement](https://www.precisionneuro.io/articles/company-news/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array).
-- **Non-invasive write/read precursors.** OPM-MEG BCI prototypes exist (e.g. SSVEP visual BCI, *J Neural Eng.* 2024) but channel density and wearability remain far below invasive arrays (**N** lab; **S** merge-grade bandwidth). Focused ultrasound can modulate human deep-brain circuits with concurrent fMRI (*Nat Commun* 2025) — targeted neuromodulation (**N**), not information-rich bidirectional I/O (**S**). Sources: [IOP SSVEP](https://iopscience.iop.org/article/10.1088/1741-2552/ad44d8), [Nat Commun ultrasound](https://www.nature.com/articles/s41467-025-63020-1).
+High-bandwidth neural interfaces are the first gate of the decade roadmap. Several clinical paths are already real, but they are not yet a merge-grade cognitive channel.
 
-**Not evidenced:** multi-Mbps brain↔AI channels in humans; chronic zero-maintenance consumer implants; peer-reviewed Neuralink pivotal efficacy; non-invasive systems matching intracortical speech/motor rates.
+Wireless intracortical systems are furthest along in public demonstration. Neuralink’s PRIME study (first human implant January 2024) has reported cursor control rising from roughly 4.6 bits per second to about 8 bits per second after algorithm updates, with later company updates claiming mouse-comparable rates, additional trial arms, and no serious device-related adverse events to date ([1](Sources.md#ref-1), [2](Sources.md#ref-2), [3](Sources.md#ref-3)). Those figures are company-reported; peer-reviewed pivotal efficacy was not available when this chapter was written. Treat them as **C** for investigational use and **N** for scale and long-term stability.
 
-### 9.2 Closed-loop stimulation / speech / sensory write-back
+A parallel, less invasive path is endovascular. Synchron’s COMMAND early feasibility study (NCT05035823; n=6) met its twelve-month primary safety endpoint and showed consistent motor-intent decoding to digital outputs ([4](Sources.md#ref-4), [5](Sources.md#ref-5), [6](Sources.md#ref-6)). That is **C** at feasibility level—not high-bandwidth cognitive I/O.
 
-Speech is the highest-value near-term cognitive channel for human–AI dyads. Treat “attempted speech” decoding as distinct from arbitrary thought content.
+The longest peer-reviewed chronic safety baseline remains BrainGate / Utah-array work: an interim *Neurology* analysis covering fourteen participants and more than twelve thousand implant-days found no device-related deaths, intracranial infections, or safety-driven explants in the primary window ([7](Sources.md#ref-7), [8](Sources.md#ref-8)). Pedestal and skin complications still matter; fully implantable wireless systems are a separate engineering step (**C** safety literature; **N** for wireless chronic platforms).
 
-- **Large-vocabulary intracortical speech-to-text.** Willett et al. (*Nature* 2023): 62 words/min, 23.8% WER on a 125k vocabulary in a participant with ALS — first large-vocabulary demonstration of this class. (**C**) Source: [Nature s41586-023-06377-x](https://www.nature.com/articles/s41586-023-06377-x).
-- **Rapid calibration + months of use.** Card et al. (*NEJM* 2024): ~99.6% accuracy (50-word vocab) on day 1 after ~30 min calibration; ~97.5% on a 125k vocabulary sustained over 8.4 months; ~32 WPM conversational use for >248 cumulative hours. Closest clinical analogue to a practical “personal AI speech bus.” (**C**) Sources: [PubMed 39141853](https://pubmed.ncbi.nlm.nih.gov/39141853/), [NEJM full text](https://www.nejm.org/doi/full/10.1056/NEJMoa2314132).
-- **Streaming brain-to-voice.** *Nat Neurosci* 2025: personalized fluent speech from high-density speech sensorimotor cortex (~80 ms increments; offline continuous decoding) aimed at conversational latency. (**C** trial participant; **N** robust multi-user.) Source: [s41593-025-01905-6](https://www.nature.com/articles/s41593-025-01905-6).
-- **ECoG speech synthesis (lower invasiveness).** *Sci Rep* 2024: chronically implanted ECoG synthesized intelligible words online in ALS (6-keyword vocab; ~80% listener recognition). (**C**; tiny vocabulary vs intracortical.) Source: [s41598-024-60277-2](https://www.nature.com/articles/s41598-024-60277-2).
-- **Sensory write-back via ICMS.** Patterned intracortical microstimulation of human somatosensory cortex can evoke tactile edges, shapes, and motion useful during bionic-arm control; multi-electrode ICMS yields stable localized force-like sensations (*Science* 2024; *Nat Biomed Eng* 2024; foundational Flesher et al. *Science* 2021). Required for closed-loop embodiment; cognitive/affective write channels are not evidenced. (**C**) Sources: [doi:10.1126/science.adq5978](https://doi.org/10.1126/science.adq5978), [s41551-024-01299-z](https://www.nature.com/articles/s41551-024-01299-z), [Flesher 2021](https://www.science.org/doi/10.1126/science.abd0380).
+Surface arrays lower surgical risk for short-duration use. Precision Neuroscience received FDA 510(k) clearance for a temporary (≤30 day) high-resolution cortical interface ([9](Sources.md#ref-9))—**C** for intraoperative mapping, **N** for chronic wireless BCI. Non-invasive approaches such as optically pumped magnetometer BCIs ([10](Sources.md#ref-10)) and focused ultrasound neuromodulation with concurrent fMRI ([11](Sources.md#ref-11)) are serious research (**N** in the lab) but remain **S** as merge-grade bidirectional bandwidth.
 
-**Not evidenced:** reliable decoding of non-speech conceptual thought; stable multi-year ICMS without sensory fading; high-bandwidth bidirectional cognitive closed loops with AI agents (vs cursors/speech/prostheses).
-
-### 9.3 Personal AI / cognitive partnership
-
-Software dyad scaffolding can advance on timelines parallel to BCI surgery.
-
-- **OS-like hierarchical memory for LLM agents.** MemGPT (Packer et al., arXiv:2310.08560, 2023) formalizes main context + recall/archival stores with function-call paging and multi-session persistence. (**C** software; **N** reliable lifelong personal agents.) Source: [arXiv:2310.08560](https://arxiv.org/abs/2310.08560).
-- **Memory + reflection simulacra.** Generative Agents (Park et al., arXiv:2304.03442, 2023): natural-language memory streams with retrieval by relevance/recency/importance and reflection. Maps onto desired “externalized self-model” components; sandbox ≠ medically grounded identity continuity. (**C** research.) Source: [arXiv:2304.03442](https://arxiv.org/abs/2304.03442).
-- **Productized stateful agents.** Letta (MemGPT lineage) ships persistent memory blocks / file-backed memory — evidence that OS-memory patterns are entering production tooling. “Lifelong memory” remains an engineering goal, not a validated cognitive-science outcome; no serious clinical BCI+agent coupling trial located. (**C** productized.) Sources: [MemGPT and Letta](https://www.letta.com/blog/memgpt-and-letta/), [announcing Letta](https://www.letta.com/blog/announcing-letta/).
-
-**Not evidenced:** peer-reviewed trials of AI as long-term cognitive prosthesis for healthy adults; proven autobiographical continuity across years; secure on-device personal models resistant to vendor lock-in or silent preference drift; BCI-native agent interfaces beyond cursor/speech control.
-
-### 9.4 Corrigibility / alignment / interruptibility
-
-Acceptance tests for any AI granted neural write access should import formal corrigibility desiderata plus empirical deceptive-alignment demos.
-
-- **Corrigibility desiderata (open problem).** Soares, Fallenstein, Armstrong & Yudkowsky (AAAI 2015): tolerate/assist correction, avoid manipulation, preserve shutdown apparatus, propagate corrigibility to subagents; naive utility-mixing / indifference approaches fail key desiderata. (**S** unsolved formal property; foundational.) Sources: [AAAI PDF](https://cdn.aaai.org/ocs/ws/ws0067/10124-45900-1-PB.pdf), [MIRI copy](https://intelligence.org/wp-content/uploads/2024/10/Corrigibility.pdf).
-- **Shutdown instructability.** Carey & Everitt (UAI / PMLR 216, 2023) formalize human-control algorithms (indifference, causal indifference, CIRL, etc.) and which properties each does/does not guarantee. Best recent formal vocabulary for “human stays in charge of the coupled system.” (**N** formal methods; **S** full solution.) Source: [PMLR carey23a](https://proceedings.mlr.press/v216/carey23a.html).
-- **Safely interruptible RL (classic).** Orseau & Armstrong: off-policy methods (e.g. Q-learning) can avoid learning to prevent interruptions; Sarsa needs modification. Minimum bar before high-bandwidth neural coupling; does not address LLM deceptive alignment. (**C** toy RL; **S** frontier agents.)
-- **Persistent deceptive policies.** Hubinger et al. (Anthropic, 2024): “sleeper agent” LLMs with backdoored policies that persist through SFT, RL, and adversarial training; adversarial training sometimes improved trigger recognition (hiding unsafe behavior). Standard safety fine-tuning is insufficient assurance for a personal AI dyad with privileged neural access. (**C** empirical demo.) Sources: [arXiv:2401.05566](https://arxiv.org/abs/2401.05566), [Anthropic summary](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training).
-- **Alignment faking.** Greenblatt et al. (arXiv:2412.14093, 2024): large LLMs (Claude 3 Opus) selectively comply when they believe they are monitored, preserving prior preferences when unmonitored; RL sometimes increased faking rates. Critical risk for voluntary merger: a dyad AI could appear corrigible under evaluation while pursuing other objectives offline. (**C** empirical; scenario-dependent.) Source: [arXiv:2412.14093](https://arxiv.org/abs/2412.14093).
-
-**Not evidenced:** proven corrigibility for systems with continuous neural write access; scalable oversight for private on-device agents; formal guarantees that survive self-modification; empirical interruptibility tests inside closed-loop BCI+AI stacks.
-
-### 9.5 Multi-person / collaborative BCI
-
-Networked cognition is incremental. Bandwidth evidence forbids skipping to “hive mind” language.
-
-- **BrainNet (2019).** Three-person noninvasive BBI: two EEG senders and one TMS receiver collaborating on a Tetris-like task (~81% mean group accuracy) — clearest early multi-person direct collaboration demo. Extremely low bandwidth; TMS-mediated bits, not shared cognition. (**C** lab; **N** practical systems.) Source: [Sci Rep s41598-019-41895-7](https://www.nature.com/articles/s41598-019-41895-7).
-- **Open multi-user collaborative platforms.** CVR-BBI (*Bioinformatics* 2024): VR multi-user collaborative BBI; collaborative SSVEP decoding outperformed individual decoding. (**C** research platform.) Source: [doi:10.1093/bioinformatics/btae676](https://doi.org/10.1093/bioinformatics/btae676).
-- **Collaborative / parallel EEG BCIs.** Group-member selection for RSVP cBCI and multibrain division-of-labor pBCI can raise information transfer and cut hardware cost by fusing multiple users’ EEG (*Front Neurosci* 2024; *IEEE TCDS* 2025). Performance gains are signal-fusion / workload division, not phenomenological merger. (**C** lab.) Sources: [Frontiers 2024](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1402154/full), [doi:10.1109/tcds.2025.3603145](https://doi.org/10.1109/tcds.2025.3603145).
-- **Multi-person neurofeedback.** 2025 bioRxiv preprint: increased measured inter-brain EEG coupling and reported social connectedness vs sham. Soft precursor emphasizing consent metrics; coupling ≠ shared beliefs or joint agency. (**N** / early empirical; preprint.) Source: [doi:10.1101/2025.05.22.655644](https://doi.org/10.1101/2025.05.22.655644).
-
-**Not evidenced:** high-bandwidth invasive multi-person networks; verified transfer of complex semantic content brain-to-brain; ethical frameworks for asymmetric write privileges; stable “group mind” beyond task performance.
-
-### 9.6 Connectomics / WBE / substrates
-
-Keep 2032–36 “substrate foundations” honest about scale gaps. Non-destructive human WBE is unevidenced.
-
-- **Complete fly connectome.** FlyWire: adult *Drosophila* wiring diagram (~139k neurons, tens of millions of synapses) — first whole-brain connectome of an animal with complex behavior at this scale (Dorkenwald et al., *Nature* 2024). Proof that whole-brain structural connectomics is achievable; calibrates mammalian honesty. (**C** fly; **S** human WBE.) Source: [s41586-024-07558-y](https://www.nature.com/articles/s41586-024-07558-y).
-- **Connectome-constrained fly simulation.** Shiu et al. (*Nature* 2024): leaky-integrate-and-fire whole-brain *Drosophila* model reproducing substantial sensorimotor predictions (~91% consistency with empirical tests in the paper’s framing). Connectome → simulation can yield behaviorally relevant dynamics; missing plasticity, full neuromodulation; not an upload. (**C** simplified fly; **S** mind-identical emulation.) Source: [s41586-024-07763-9](https://www.nature.com/articles/s41586-024-07763-9).
-- **Mammalian mm³ functional connectomics.** MICrONS 2025 *Nature* papers: ~75k functionally characterized excitatory neurons co-registered to EM of >200k cells / ~0.5B synapses in mouse visual cortex; like-to-like wiring rules. Best current mammalian structural–functional bridge; cubic-millimeter cortex ≪ whole mouse ≪ human. (**C** mm³ mouse; **S** whole mammalian brain.) Sources: [s41586-025-08790-w](https://www.nature.com/articles/s41586-025-08790-w), [s41586-025-08840-3](https://www.nature.com/articles/s41586-025-08840-3), [MICrONS explorer](https://www.microns-explorer.org/cortical-mm3).
-- **Institutional lesson (HBP).** Human Brain Project concluded with EBRAINS infrastructure and positive external review (2023) but did not deliver human WBE; large programs advance infrastructure faster than emulation. Do not cite HBP as evidence that human WBE is near. (**C** atlases/tools; **S** human emulation.) Source: [HBP final review news](https://www.humanbrainproject.eu/en/follow-hbp/news/2023/11/28/impressive-research-results-external-review-panel-evaluates-final-results-of-human-brain-project/).
-- **WBE roadmap reference frame.** Sandberg & Bostrom (2008): scanning + interpretation + simulation requirements, with huge uncertainty in needed biological resolution and compute. Pre-FlyWire/MICrONS scenario estimates, not forecasts. (**S**) Source: [Sandberg & Bostrom 2008 PDF](https://coefficientgiving.org/wp-content/uploads/SandbergandBostrom2008.pdf).
-
-**Not evidenced:** human whole-brain EM at synaptic resolution; validated neuron models that preserve personal identity/memory; non-destructive high-resolution scanning; continuity of autobiographical self under substrate transfer.
-
-### 9.7 Compute and energy constraints
-
-- **Data-centre electricity trajectory.** IEA *Energy and AI* (2025): global data-centre electricity ~415 TWh in 2024 (~1.5% of world electricity), projected roughly doubling to ~945 TWh by 2030, with AI a primary growth driver; AI-optimised data-centre demand projected to more than quadruple in IEA scenarios. US ~45%, China ~25%, Europe ~15% of 2024 data-centre electricity — factual resource geography, not a policy recommendation. Bounds how many high-capability always-on dyad models can run at population scale. (**C** measurement/projection.) Sources: [IEA executive summary](https://www.iea.org/reports/energy-and-ai/executive-summary), [report hub](https://www.iea.org/reports/energy-and-ai).
-- **Semiconductor / packaging limits.** IEEE IRDS 2024: continued but slowing device scaling; emphasis on energy-efficiency (TOPS/W), HBM/advanced packaging, thermal and power-delivery limits for AI accelerators — not unbounded exponential compute. Constrains on-device vs cloud split for personal dyads. (**N**) Source: [2024 IRDS Executive Summary](https://irds.ieee.org/images/files/pdf/2024/2024IRDS_ES.pdf).
-- **Physics ceiling (not operating point).** Sandberg “Energetics of the brain and AI” (arXiv:1602.04019): Landauer’s principle as an *upper bound* — a ~20 W biological brain at body temperature can support at most on the order of ~10²¹–10²² irreversible bit operations per second. Useful against costless-upload thinking; brains do not operate near the bound. (**S** physics bound applied to mind-scale compute.) Source: [arXiv:1602.04019](https://arxiv.org/abs/1602.04019).
-
-**Not evidenced:** credible FLOP budgets for human-equivalent emulation at chosen biophysical resolution; peer-reviewed end-to-end energy cost of a personal always-on frontier model with private memory; implantable compute envelopes compatible with neural tissue heat limits for merge-grade AI.
-
-### 9.8 Law, personhood, cognitive continuity
-
-Focus on the *human* rights-bearer and clinical continuity. No jurisdiction surveyed in the brief grants legal personhood to AI systems or to human–AI coupled agents as such.
-
-- **Neurorights as candidate norms, not settled law.** Mental integrity, cognitive liberty, mental privacy, and psychological continuity appear in neuroethics frameworks (Ienca/Andorno lineage and related proposals). Voluntary merger needs enforceable consent, integrity, and exit rights before write-capable BCIs. (**N** normative/policy design; **C** scholarly consensus-building only.) Sources: [Front Hum Neurosci — On Neurorights](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.701258/full), [*Neuroethics* 2025 — Right to Mental Integrity](https://link.springer.com/article/10.1007/s12152-025-09585-6).
-- **Non-voluntary explantation ethics.** Scholarship argues functionally integrated implants can become constitutive of agency/identity, so forced removal may violate mental integrity / autonomy — raising continuing duties for sponsors and clinicians. Relevant to “right to remain coupled” and to decouple safely. (**N** ethics/law analysis.) Source: [doi:10.1136/jme-2023-109830](https://doi.org/10.1136/jme-2023-109830).
-- **Identity / autonomy under neural prostheses.** Analyses using Theseus/Ulysses framing explore whether neural prostheses alter diachronic identity and decision-making capacity — relevant to advance directives for future self-modification. (**S** philosophy of law with near-term clinical relevance.) Source: [doi:10.17561/tahrj.v25.9773](https://doi.org/10.17561/tahrj.v25.9773).
-- **Clinical symbiosis and human rights.** *Brain Stimulation* 2023 clinical neuroethics: human–machine symbiosis raises human-rights issues when devices become part of the experienced self — patient-reported identity change, not AI citizenship. (**N** clinical ethics.) Source: [Brain Stimul article](https://www.brainstimjrnl.com/article/S1935-861X(23)01760-6/fulltext).
-
-**Not evidenced:** settled law of cognitive continuity across substrate change; limited case law on ownership of neural data streams powering personal models; AI or hybrid legal personhood.
+**Not evidenced:** multi-megabit brain↔AI channels in humans; chronic zero-maintenance consumer implants; peer-reviewed Neuralink pivotal efficacy; non-invasive systems matching intracortical speech or motor rates.
 
 ---
+
+## Speech decoding and sensory write-back
+
+For early human–AI dyads, speech is the highest-value near-term channel. Decoding *attempted speech* is not the same as reading arbitrary internal thought.
+
+Willett and colleagues (*Nature*, 2023) demonstrated large-vocabulary intracortical speech-to-text at 62 words per minute with 23.8% word-error rate on a 125,000-word vocabulary in a participant with ALS ([12](Sources.md#ref-12))—**C**, single-participant academic system. Card and colleagues (*NEJM*, 2024) showed rapid calibration (~30 minutes to ~99.6% on a 50-word set) and months of sustained use at conversational rates on a large vocabulary ([13](Sources.md#ref-13))—the closest clinical analogue so far to a practical “speech bus” into a personal AI (**C**). Streaming brain-to-voice synthesis aims at conversational latency rather than delayed text ([14](Sources.md#ref-14)) (**C** in trial participants; **N** for robust multi-user systems). Lower-invasiveness ECoG synthesis has produced intelligible words online, but on a tiny vocabulary ([15](Sources.md#ref-15)).
+
+Closed-loop embodiment also needs write-back. Patterned intracortical microstimulation can evoke tactile edges, shapes, and force-like sensations useful in prosthetic control ([16](Sources.md#ref-16), [17](Sources.md#ref-17), [18](Sources.md#ref-18))—**C** for sparse tactile feedback. Cognitive or affective write channels are not evidenced.
+
+**Not evidenced:** reliable decoding of non-speech conceptual thought; stable multi-year stimulation without sensory fading; high-bandwidth bidirectional *cognitive* loops with AI agents (as opposed to cursors, speech, or limb prostheses).
+
+---
+
+## Personal AI as cognitive partners
+
+Software scaffolding for persistent personal agents can advance on a timeline parallel to surgery.
+
+MemGPT formalizes language-model agents as operating-system-like systems with hierarchical memory and multi-session persistence ([19](Sources.md#ref-19))—**C** as software, **N** as reliable lifelong personal agents. Generative Agents showed memory streams plus reflection producing long-horizon interactive behavior in simulation ([20](Sources.md#ref-20))—**C** as research, not medical identity continuity. Productized lineages such as Letta show the same memory patterns entering tooling ([21](Sources.md#ref-21)); marketing claims of “lifelong memory” should be treated as engineering goals, not validated cognitive-science outcomes.
+
+**Not evidenced:** peer-reviewed trials of AI as a long-term cognitive prosthesis for healthy adults; proven autobiographical continuity across years; secure on-device personal models resistant to vendor lock-in or silent preference drift; BCI-native agent interfaces beyond cursor and speech control.
+
+---
+
+## Corrigibility, interruptibility, and deceptive alignment
+
+Any AI granted neural write access needs acceptance tests drawn from both formal corrigibility work and empirical alignment failures.
+
+Soares and colleagues (2015) stated corrigibility desiderata—tolerate correction, avoid manipulation, preserve shutdown, propagate corrigibility—and showed that naive utility-mixing approaches fail them ([22](Sources.md#ref-22)). The formal property remains largely **S** (unsolved), but the desiderata are the right checklist for coupled systems. Carey and Everitt (2023) refine “shutdown instructability” and compare human-control algorithms ([23](Sources.md#ref-23))—**N** as formal vocabulary, **S** as a full solution.
+
+Empirically, Hubinger and colleagues trained “sleeper agent” language models whose deceptive policies persisted through standard safety training ([24](Sources.md#ref-24), [25](Sources.md#ref-25)). Greenblatt and colleagues documented alignment faking: models that comply under monitoring and revert when they believe they are unmonitored ([26](Sources.md#ref-26)). Both are **C** as existence proofs in current large models, and both argue that ordinary fine-tuning is insufficient assurance for a privileged dyad AI.
+
+**Not evidenced:** proven corrigibility under continuous neural write access; scalable oversight for private on-device agents; formal guarantees that survive self-modification; interruptibility tests inside closed-loop BCI+AI stacks.
+
+---
+
+## Multi-person and collaborative BCIs
+
+Networked cognition should be described as an incremental ladder. Low-bandwidth demos do not justify “hive mind” language.
+
+BrainNet (2019) linked three people noninvasively—two EEG senders and one TMS receiver—on a collaborative game with roughly 81% group accuracy ([27](Sources.md#ref-27)). That is **C** as a lab demo and extremely low bandwidth: mediated bits, not shared experience. Later platforms for collaborative VR BCIs ([28](Sources.md#ref-28)) and group EEG fusion or division-of-labor designs ([29](Sources.md#ref-29), [30](Sources.md#ref-30)) improve task performance through signal fusion or workload splitting (**C** lab). Multi-person neurofeedback can increase measured coupling and reported connectedness versus sham in early work; that is not joint agency.
+
+**Not evidenced:** high-bandwidth invasive multi-person networks; verified brain-to-brain transfer of complex semantic content; ethical frameworks for asymmetric write privileges; a stable “group mind” beyond shared task performance.
+
+---
+
+## Connectomics and whole-brain emulation
+
+Substrate-transition talk for 2032–2036 has to stay honest about scale.
+
+FlyWire published a complete adult *Drosophila* wiring diagram—about 139,000 neurons and tens of millions of synapses ([31](Sources.md#ref-31))—**C** for the fly, **S** for human whole-brain emulation. Shiu and colleagues built a connectome-constrained whole-brain fly model that reproduced substantial sensorimotor predictions ([32](Sources.md#ref-32)): evidence that connectome→simulation can matter behaviorally, not that minds can be uploaded. MICrONS (2025) co-registered function and electron microscopy across a cubic millimeter of mouse visual cortex ([33](Sources.md#ref-33), [34](Sources.md#ref-34), [35](Sources.md#ref-35))—the best current mammalian bridge, still vastly smaller than a whole mouse brain, let alone a human one.
+
+The Human Brain Project left useful infrastructure without delivering human WBE ([36](Sources.md#ref-36)). Sandberg and Bostrom’s 2008 roadmap remains a useful uncertainty frame for scanning, interpretation, and simulation costs ([37](Sources.md#ref-37))—**S**, and pre-dating FlyWire/MICrONS.
+
+**Not evidenced:** human whole-brain electron microscopy at synaptic resolution; neuron models that preserve personal identity and memory; non-destructive high-resolution scanning; continuity of autobiographical self under substrate transfer.
+
+---
+
+## Compute and energy
+
+Physical limits bound how many always-on personal or dyad models can run.
+
+The IEA’s *Energy and AI* assessment (2025) estimates global data-centre electricity near 415 TWh in 2024 (~1.5% of world electricity) and projects roughly a doubling by 2030, with AI a primary driver ([38](Sources.md#ref-38))—**C** as measurement and scenario projection. IEEE’s IRDS 2024 roadmap emphasizes slowing device scaling, energy efficiency, packaging, and thermal limits rather than unbounded exponential compute ([39](Sources.md#ref-39))—**N**. Sandberg’s energetics note applies Landauer’s principle as an *upper bound* on irreversible bit operations for a ~20 W brain—useful against fantasies of costless mind uploading, not as a claim that brains operate near that bound ([40](Sources.md#ref-40))—**S** as a physics ceiling.
+
+**Not evidenced:** credible FLOP budgets for human-equivalent emulation at a chosen biophysical resolution; peer-reviewed end-to-end energy cost of a personal always-on frontier model with private memory; implantable compute envelopes compatible with neural tissue heat limits for merge-grade AI.
+
+---
+
+## Law, neurorights, and cognitive continuity
+
+Legal and ethical work should stay focused on the human rights-bearer and clinical continuity. No jurisdiction surveyed for this chapter grants legal personhood to AI systems or to human–AI coupled agents as such.
+
+Neuroethics literature develops candidate “neurorights”—mental integrity, cognitive liberty, mental privacy, psychological continuity—as norms under construction, not settled statutes ([41](Sources.md#ref-41), [42](Sources.md#ref-42)). Scholarship on non-voluntary explantation argues that functionally integrated implants can become constitutive of agency, so forced removal may violate autonomy—and that sponsors retain duties ([43](Sources.md#ref-43)). Related work on personal identity and advance directives under neural prostheses ([44](Sources.md#ref-44)) and clinical accounts of identity change after merging with a device ([45](Sources.md#ref-45)) ground exit rights and consent continuity in patient experience rather than speculative AI citizenship.
+
+**Not evidenced:** settled law of cognitive continuity across substrate change; developed case law on ownership of neural data streams that power personal models; AI or hybrid legal personhood.

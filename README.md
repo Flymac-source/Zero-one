@@ -1,7 +1,7 @@
 # 01
 
 **Living Document on Voluntary Cognitive Merger**  
-Version **0.2** · 16 September 2026
+Version **0.2.1** · 16 September 2026
 
 **Maturity legend:** **C** = currently possible / demonstrated · **N** = near-term engineering · **S** = speculative
 
@@ -84,6 +84,7 @@ Research and coordination orientation — **not** an active engineering program.
 
 - **0.1** (16 Sep 2026): spine — goal, principles, rejects, decade gates, open problems.
 - **0.2** (16 Sep 2026): evidence-backed expansion of 0.1 — design detail plus evidence landscape and bibliography; maturity labels retained; no fabricated citations.
+- **0.2.1** (16 Sep 2026): Evidence rewritten as prose with inline Sources citations; Evidence-at-a-glance summary after the decade roadmap; no new empirical claims.
 
 ---
 
