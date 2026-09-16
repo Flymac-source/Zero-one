@@ -1,3 +1,5 @@
+The [homepage](README.md) is the short spine. This page is the decade detail.
+
 # Roadmap (2026–2036)
 
 This is **scaffolding to open the door**, not biological dissolution or a scheduled far-future end-state. Anything beyond early coupling remains **S** and cannot be timed. The next ten years determine whether early coupling is even technically and institutionally available.
