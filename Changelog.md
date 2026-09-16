@@ -1,12 +1,15 @@
 # Changelog
 
+## Version 0.2.1 — 16 September 2026
+- Rewrote Evidence as continuous prose with inline numbered citations linking to Sources
+- Added anchors in Sources for citation jump targets
+- Added “Evidence at a glance” summary after the decade roadmap (and at the top of Evidence)
+- No new empirical claims; presentation and cohesion only
+
 ## Version 0.2 — 16 September 2026
-- Evidence-backed expansion of Version 0.1
-- Kept: core goal and diagnosis, non-negotiable principles, explicit rejects, decade roadmap (Gates 1–5), AI-side instrumental assessment, damaged/atypical minds design, coordination/consent hard problems, long-horizon speculative path, expanded open problems, living-document rule
-- Added [Evidence](Evidence.md): evidence landscape across eight domains (BCI; closed-loop speech/sensory; personal AI; corrigibility/alignment; multi-person BCI; connectomics/WBE; compute/energy; law/personhood), with **C/N/S** labels, primary URLs, and explicit gaps — no fabricated citations
-- Expanded [Sources](Sources.md): curated bibliography (~45 primary links, grouped by domain)
-- Expanded [Roadmap](Roadmap.md) and [Open-problems](Open-problems.md) from the master document; long-horizon path clearly labeled **speculative**
-- README titled Version **0.2** · 16 September 2026; maturity legend; design-topic pointers; Other Chapters links include Evidence
+- Evidence-backed expansion of the 0.1 spine
+- Added Evidence chapter and populated Sources bibliography
+- Expanded Roadmap and Open-problems; design topics on README
 
 ## Version 0.1 — 16 September 2026
 - Initial publication of the living document
