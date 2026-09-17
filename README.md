@@ -1,80 +1,62 @@
 # 01
 
 **Voluntary Cognitive Merger**  
-Living document · Version **0.3.1** · 16 September 2026
+Living document · Version **0.3.2** · 16 September 2026
 
-A short spine. Depth is optional and linked at the bottom.
+This page is the short spine of the project. Longer chapters are linked at the end if you want depth.
 
 ---
 
 ## The problem
 
-As AI capability rises, failure modes intensify together: uncontrolled capability growth, factional and state capture, great-power racing, and irreversible miscoordination. Most public talk either hyped a destiny or treated the technology as a weapon for whoever grabs it first.
+As artificial intelligence becomes more capable, several failure modes tend to intensify together. Systems can improve themselves faster than they can be reliably steered. Political factions and governments try to capture advanced AI as a tool of power. Great-power competition encourages racing and weakens safety margins. In the worst cases, miscoordination produces irreversible loss.
+
+Much public discussion either sells a destiny or treats the technology as a weapon for whoever seizes it first. Neither approach keeps the goal fixed on understanding the world and expanding what can be understood.
 
 ## The goal
 
-Keep human and AI trajectories aligned on two permanent aims only:
+This project keeps one technical orientation in view: a **voluntary** merger of human minds with advanced AI systems, aimed at two permanent ends only.
 
-1. **Accurate modeling of reality**
-2. **Expansion** — physical, computational, and exploratory
+First, **accurate modeling of reality** — correspondence between models and the world, not comfort or narrative control.  
+Second, **expansion** — physical, computational, and exploratory growth in what participating minds can reach and understand.
 
-The technical path under study is a **voluntary** merger of human minds with advanced AI systems. This is a research orientation, not a movement, not inevitability, not politics, not salvation.
+Everything else is instrumental. This is a research and coordination orientation. It is not a movement, not a claim of inevitability, not a political program, and not a salvation story.
 
 ## What we refuse
 
-- Forced merger or removal of exit rights  
-- Single-faction, single-nation, or single-company monopoly on core interfaces or frontier models  
-- Treating AI as a political weapon  
-- Mystical, cult, or “already underway” framing  
-- Claiming interconnection automatically ends war or scarcity  
-- Discarding damaged or dissenting minds as optimization hygiene  
+We do not advocate forced merging, or the removal of exit rights. We do not accept monopoly control of core interfaces or frontier models by a single faction, nation, or company. We do not treat AI as a political weapon. We reject mystical, cult, or “already underway” framing. We do not claim that interconnection automatically ends war or scarcity. We do not treat damaged or dissenting minds as disposable for optimization.
 
-## Non-negotiables
+## Non-negotiable constraints
 
-Corrigibility (interruptible and redirectable) · Exit rights that stay real under network effects · Pluralism · Truth-seeking over power or narrative · Continuity of persons · Consent continuous and revocable  
+Coupled systems must remain **corrigible**: interruptible and redirectable, including when they have partial access to a human’s cognitive state. Individuals must retain **exit rights** that remain real even when network effects make staying advantageous. **Pluralism** is required: no single actor may monopolize the core interfaces or the most capable models. The primary optimization target is **truth-seeking** — correspondence with reality — not power, engagement, or narrative control. **Continuity of persons** matters: damaged or atypical minds are not discarded; they may receive tiered access, private instances, and repair rather than unrestricted write access to a shared substrate. **Consent** must stay continuous and revocable.
 
-## What must be true this decade (2026–2036)
+## What must be true this decade
 
-Scaffolding only — not a schedule for far futures:
+The 2026–2036 sequence is scaffolding to open the door. It is not a schedule for distant futures.
 
-1. **2026–2028** — Reliable high-bandwidth brain–computer interfaces  
-2. **2027–2030** — Persistent personal AI as continuous cognitive partners  
-3. **2028–2032** — Corrigibility and safety for tightly coupled systems  
-4. **2030–2034** — Small-group networked cognitive workspaces  
-5. **2032–2036** — Serious foundations for substrate research and legal continuity of persons  
+From 2026 to 2028, the field needs reliable, long-term, high-bandwidth brain–computer interfaces. From 2027 to 2030, it needs persistent personal AI systems that can act as continuous cognitive partners. From 2028 to 2032, tightly coupled human–AI systems need robust corrigibility and safety methods, including enforceable rights to disconnect. From 2030 to 2034, work should test small-group networked cognitive workspaces. From 2032 to 2036, serious research infrastructure should exist for substrate science and for legal recognition of cognitive continuity.
 
-Detail: [Roadmap](Roadmap.md)
+Detail lives in the [Roadmap](Roadmap.md).
 
-## Evidence at a glance
+## What the evidence currently supports
 
-**C** = demonstrated · **N** = near-term engineering · **S** = speculative
+Labels: **C** means currently demonstrated; **N** means near-term engineering; **S** means speculative.
 
-- **BCI:** Clinical invasive and endovascular systems exist (**C**); merge-grade bandwidth and peer-reviewed Neuralink PRIME efficacy do not.  
-- **Speech / closed-loop:** Large-vocabulary attempted-speech decoding (including multimodal speech+gesture ECoG) and early tactile write-back are **C**; arbitrary thought-reading is not evidenced.  
-- **Personal AI:** Persistent memory-agent software is **C**; lifelong clinical cognitive prostheses are not evidenced.  
-- **Corrigibility:** Formal desiderata exist; deceptive-alignment and scheming stress-test demos show ordinary fine-tuning is insufficient (**C** demos). Proven corrigibility under neural write access remains **S**.  
-- **Multi-person / WBE:** Early low-bandwidth demos and animal connectomics are **C** at small scale; human whole-brain emulation and high-bandwidth shared cognition are **S** / not evidenced.  
+Clinical invasive and endovascular brain–computer interfaces exist (**C**), but merge-grade bandwidth and peer-reviewed Neuralink PRIME efficacy do not. Large-vocabulary attempted-speech decoding, including recent work that combines speech and gesture from one implant, is **C**; reading arbitrary internal thought is not evidenced. Persistent memory-agent software for personal AI is **C**; lifelong clinical cognitive prostheses are not. Formal corrigibility desiderata exist, and empirical work on scheming and alignment-faking shows that ordinary fine-tuning is not enough (**C** as demos); proven corrigibility under neural write access remains **S**. Early low-bandwidth multi-person demos and animal connectomics are **C** at small scale; human whole-brain emulation and high-bandwidth shared cognition are **S** or not evidenced. Early automated AI research-and-development loops exist as measured demos; they are not full recursive self-improvement.
 
-Full narrative and citations: [Evidence](Evidence.md) · [Sources](Sources.md)
+The full narrative with citations is in [Evidence](Evidence.md). The bibliography is in [Sources](Sources.md).
 
 ## Status
 
-Research and coordination orientation — not an active engineering program. No claim that merge prerequisites exist today. Updated only when higher-signal evidence or clearer reasoning appears.
-
-**0.3.1** (16 Sep 2026): Evidence additions from the first literature scan; spine structure unchanged.
+This remains a research and coordination orientation, not an active engineering program. We do not claim that the technical prerequisites for merger exist today. The document changes only when higher-signal evidence or clearer reasoning appears.
 
 ## How to suggest a correction
 
-This site has no comment thread.
-
-- Open a GitHub Issue (use the **Correction** template): https://github.com/truenorth01/Zero-one/issues/new/choose  
-- Or submit a pull request with a concrete edit and primary source  
-
-Issues are public. Do not put private contact details in them.
+This site has no comment thread. To suggest a correction, open a GitHub Issue with the **Correction** template at https://github.com/truenorth01/Zero-one/issues/new/choose, or submit a pull request with a concrete edit and a primary source. Issues are public. Do not put private contact details in them.
 
 ---
 
-## Depth (optional)
+## Optional depth
 
 - [Roadmap](Roadmap.md) — decade gates and longer-term direction  
 - [Evidence](Evidence.md) — sourced landscape by domain  

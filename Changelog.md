@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 0.3.2 — 16 September 2026
+- Rewrote the homepage spine in full prose for clarity; structure and substance unchanged
+
 ## Version 0.3.1 — 16 September 2026
 - Evidence: Nat Neurosci simultaneous speech+gesture ECoG; Neuralink VOICE registry (NCT07224256, no efficacy claims); SchemeArena + deceptive-mechanism method note; A-Evolve / NeoHorse early automated R&D demos; optional AA Index v4.3 snapshot
 - Sources: refs 64–70
